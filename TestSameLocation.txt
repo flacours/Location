@@ -1,0 +1,6 @@
+03-05 14:33:57.561    2022-2022/? I/Lab-Location? Entered footerView.OnClickListener.onClick()
+03-05 14:33:58.071    2022-2022/? I/Lab-Location? Starting Place Download
+03-05 14:33:59.141    2022-2022/? I/Lab-Location? Entered addNewPlace()
+03-05 14:34:02.781    2022-2022/? I/Lab-Location? Entered footerView.OnClickListener.onClick()
+03-05 14:34:03.291    2022-2022/? I/Lab-Location? You already have this location badge
+03-05 14:34:08.811    2022-2022/? I/Lab-Location? Place: The Greenhouse Country: United States

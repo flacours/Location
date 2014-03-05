@@ -80,7 +80,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceViewActivity.java" line="48" class="course.labs.locationlab.PlaceViewActivity" package="course.labs.locationlab">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -109,7 +109,7 @@
       <file leaf-file-name="PlaceDownloaderTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceDownloaderTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="54" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-13.5" vertical-offset="142" max-vertical-offset="2958">
+            <state line="54" column="54" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="3383">
               <folding />
             </state>
           </provider>
@@ -127,11 +127,8 @@
       <file leaf-file-name="PlaceViewActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="35" selection-start="2555" selection-end="2555" vertical-scroll-proportion="0.56228954" vertical-offset="703" max-vertical-offset="3723">
-              <folding>
-                <element signature="e#2010#3018#0" expanded="true" />
-                <element signature="e#3006#3007#0" expanded="true" />
-              </folding>
+            <state line="119" column="24" selection-start="4125" selection-end="4125" vertical-scroll-proportion="0.7677419" vertical-offset="1258" max-vertical-offset="3655">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -201,6 +198,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -318,7 +316,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,6 +372,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -400,19 +410,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -491,10 +488,10 @@
     </configuration>
     <configuration default="false" name="All Tests" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="LocationLabTest" />
-      <option name="TESTING_TYPE" value="0" />
+      <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
+      <option name="CLASS_NAME" value="course.labs.locationlab.test.TestTwoValidLocations" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
@@ -556,7 +553,6 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -565,15 +561,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281412" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281412" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -600,6 +597,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceDownloaderTask.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="54" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/MockLocationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="130" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="35" selection-start="2555" selection-end="2555" vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceDownloaderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="7" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3383">
           <folding />
         </state>
@@ -615,10 +647,7 @@
     <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="92" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="3298">
-          <folding>
-            <element signature="e#2010#3018#0" expanded="true" />
-            <element signature="e#3006#3007#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,14 +730,12 @@
     </entry>
     <entry file="file://C:/android-sdk/sources/android-18/android/app/ActivityThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2209" column="0" selection-start="92110" selection-end="92110" vertical-scroll-proportion="0.33222038" vertical-offset="35110" max-vertical-offset="84609">
-          <folding />
-        </state>
+        <state line="2209" column="0" selection-start="92110" selection-end="92110" vertical-scroll-proportion="0.33222038" vertical-offset="35110" max-vertical-offset="84609" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceDownloaderTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="54" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-13.5" vertical-offset="142" max-vertical-offset="2958">
+        <state line="54" column="54" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="3383">
           <folding />
         </state>
       </provider>
@@ -725,9 +752,7 @@
     </entry>
     <entry file="file://C:/android-sdk/sources/android-18/android/location/LocationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="0" selection-start="9532" selection-end="9532" vertical-scroll-proportion="1.2258065" vertical-offset="2963" max-vertical-offset="27166">
-          <folding />
-        </state>
+        <state line="254" column="0" selection-start="9532" selection-end="9532" vertical-scroll-proportion="1.2258065" vertical-offset="2963" max-vertical-offset="27166" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
@@ -739,11 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/labs/locationlab/PlaceViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="35" selection-start="2555" selection-end="2555" vertical-scroll-proportion="0.56228954" vertical-offset="703" max-vertical-offset="3723">
-          <folding>
-            <element signature="e#2010#3018#0" expanded="true" />
-            <element signature="e#3006#3007#0" expanded="true" />
-          </folding>
+        <state line="119" column="24" selection-start="4125" selection-end="4125" vertical-scroll-proportion="0.7677419" vertical-offset="1258" max-vertical-offset="3655">
+          <folding />
         </state>
       </provider>
     </entry>

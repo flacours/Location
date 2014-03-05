@@ -1,0 +1,8 @@
+03-05 14:34:59.172    2086-2086/? I/Lab-Location? Entered footerView.OnClickListener.onClick()
+03-05 14:34:59.682    2086-2086/? I/Lab-Location? Starting Place Download
+03-05 14:35:00.602    2086-2086/? I/Lab-Location? Entered addNewPlace()
+03-05 14:35:04.412    2086-2086/? I/Lab-Location? Entered footerView.OnClickListener.onClick()
+03-05 14:35:04.922    2086-2086/? I/Lab-Location? Starting Place Download
+03-05 14:35:05.752    2086-2086/? I/Lab-Location? Entered addNewPlace()
+03-05 14:35:10.442    2086-2086/? I/Lab-Location? Place: The Greenhouse Country: United States
+03-05 14:35:10.952    2086-2086/? I/Lab-Location? Place: Berwyn Country: United States
